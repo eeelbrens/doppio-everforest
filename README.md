@@ -6,7 +6,7 @@ This is my second dotfiled rice so far. This time I focused on adding functional
 ![2024-07-07T01:17:28,364556070+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/25725d5c-caee-41af-911a-73f03f0143a3)
 ![2024-07-07T01:18:26,841652351+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/7b481456-14b6-4795-a261-2db87029b501)
 ![2024-07-07T01:19:03,121435491+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/4e1a420c-6de1-452b-a708-9a487acfbad1)
-![2024-07-07T01:22:06,603011685+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/5faef8e3-9447-4155-aa9c-62b1804fd733)
+![2024-07-07T01:32:39,169010410+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/f5651f17-7f43-4561-80ca-5e90b8708f74)
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
