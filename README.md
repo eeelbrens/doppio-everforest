@@ -13,9 +13,10 @@ This is my second dotfiled rice so far. This time I focused on adding functional
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
+- logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout)
 
 ### extra dependencies required (check after your sway config copy)
-- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch)
+- sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), `crontab` for scheduling dunst battery low and charged alerts
 - waybar: `playerctl` (for MPRIS media module)
 
 ### terminal stuff
@@ -25,7 +26,7 @@ This is my second dotfiled rice so far. This time I focused on adding functional
 
 ### theming stuff
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
-- wallpaper: [this with all rights reserved](https://wall.alphacoders.com/big.php?i=1350405) (made theme fit more into Everforest's colorscheme in Photopea using layer filters 75% Saturation + 50% Exclusion of `#2f383e`)
+- wallpaper: [this with all rights reserved](https://wall.alphacoders.com/big.php?i=1350405) (made illustration fit more into Everforest's colorscheme in Photopea using layer filters 75% Saturation + 50% Exclusion of `#2f383e`)
 - firefox theming: [`csshacks`](https://mrotherguy.github.io/firefox-csshacks/) and [Adaptive Tab Bar Colour](https://github.com/easonwong-de/Adaptive-Tab-Bar-Colour).
 > [!NOTE]
 > The chrome folder contains my own firefox configs file for cascade. Only the cascade-colours.css file is commented out and had its color theme management to Adaptive Tab Bar Colour (background color is `#2f383e`).
