@@ -14,7 +14,7 @@ This is my second dotfiled rice so far. This time I focused on adding functional
 - notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
 - shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
-- logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout)
+- logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout) (shown in video)
 
 ### extra dependencies required (check after your sway config copy)
 - sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), `crontab` for scheduling low battery and charging dunst alerts [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin)
@@ -24,6 +24,8 @@ This is my second dotfiled rice so far. This time I focused on adding functional
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
+- character animation: [`cmatrix`](https://github.com/abishekvashok/cmatrix)
+- terminal-based file manager: [`lf`](https://github.com/gokcehan/lf)
 
 ### theming stuff
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
