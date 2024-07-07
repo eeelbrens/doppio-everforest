@@ -1,0 +1,30 @@
+* {
+	  background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window {
+    font-family: Jetbrains Mono;
+    font-size: 14pt;
+    color: #d3c6aa; /* text */
+    background-color: rgba(47, 56, 62, 0.5);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0%;
+    margin: 10px;
+    border: 4px solid #d3c6aa;
+    border-radius: 0;
+    background-color: #2f383e;
+    color: #d3c6aa;
+    transition: box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out;
+}
+
+button:focus, button:hover, button:active {
+    background-color: #d3c6aa;
+    color: #2f383e;
+    outline-style: none;
+}

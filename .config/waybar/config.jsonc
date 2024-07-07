@@ -1,0 +1,177 @@
+// -*- mode: jsonc -*-
+[
+  {
+    "position": "right",
+    "height": 1024,
+    "width": 20,
+    "spacing": 0,
+    "margin-right": 14,
+    "modules-left": [
+        "idle_inhibitor",
+        "custom/separator",
+        "sway/scratchpad",
+        "sway/mode", // disappears, adding left separator in format
+        "custom/separator",
+        "custom/yearprogress"
+    ],
+    "modules-center": [
+       "sway/workspaces"
+    ],
+    "modules-right": [
+        "custom/separator",
+        "sway/language",
+        "custom/separator",
+        "clock",
+        "clock#date",
+        "custom/separator"
+    ],
+    "sway/mode": {
+        "format": " / {}",
+        "rotate": 90
+    },
+    "sway/scratchpad": {
+        "format": "{count}h",
+        "show-empty": true,
+        "tooltip": true,
+        "tooltip-format": "{app}: {title}"
+    },
+    "idle_inhibitor": {
+        "format": "{icon}",
+        "format-icons": {
+            "activated": "awake",
+            "deactivated": "dizzy"
+        },
+        "rotate": 90
+    },
+    "tray": {
+      // "icon-size": 21,
+      "spacing": 10,
+    },
+    "clock": {
+        // "timezone": "America/New_York",
+        "format": "{:%H\n%M}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y/%m/%d}"
+    },
+    "clock#date": {
+        // "timezone": "America/New_York",
+        "format": "{:%a, %b%d} ",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+        "format-alt": "{:%Y/%m/%d}",
+        "rotate": 90
+    },
+    "sway/language": {
+        "format": {},
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
+    },
+    "keyboard-state": {
+        "numlock": true, "capslock": true,
+        "format": {
+            "numlock": "N",
+            "capslock": "C"
+        },
+        "rotate": 90
+    },
+    "custom/yearprogress": {
+        "format": "year progress: {}",
+        "exec": "~/.config/waybar/yearprogress.sh",
+        "interval": 300,
+        "rotate": 90
+    },
+    "custom/separator": {
+        "format": " / ",
+        "tooltip": false,
+        "rotate": 90
+    }
+  },
+  {
+    "position": "bottom",
+    "height": 20,
+    "width": 1876,
+    "spacing": 0,
+    "margin-bottom": 15,
+    "margin-top": -2,
+    "modules-right": [
+        "network",
+        "custom/separator",
+        "backlight",
+        "custom/separator",
+        "pulseaudio",
+        "custom/separator",
+        "battery",
+    ],
+    "modules-center": [
+        "mpris"
+    ],
+    "cpu": {
+        "format": "cpu: {usage}%",
+        "tooltip": false,
+    },
+    "memory": {
+        "format": "memory: {}%",
+    },
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 60,
+        "format-critical": "CRITICAL: {temperatureC}°C",
+        "format": "temp: {temperatureC}°C",
+    },
+    "backlight": {
+        "scroll-step": 5,
+        "format": "brightness: {percent}%",
+    },
+    "battery": {
+        "states": {
+            "great": 100,
+            "good": 85,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "power: {capacity}%",
+        "format-full": "full: {capacity}%",
+        "format-charging": "charging: {capacity}%",
+        "format-plugged": "plugged: {capacity}%",
+        "format-alt": "time: {time}",
+        "interval": 5,
+        //"format-good": "", // An empty format will hide the module
+    },
+    "battery#bat2": {
+        "bat": "BAT2",
+    },
+    "power-profiles-daemon": {
+        "format": "{profile}",
+        "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+        "tooltip": true,
+    },
+    "network": {
+        "format-wifi": "wifi: {essid}",
+        "format-ethernet": "eth: {ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "disconnected",
+        "format-disabled": "disabled",
+    },
+    "mpris": {
+        "format": "{artist} - {title}",
+        "format-paused": "{artist} - {title}",
+        "max-length": 40,
+        "interval": 1,
+    },
+    "pulseaudio": {
+        "scroll-step": 5, // %, can be a float
+        "format": "audio: {volume}% {format_source}",
+        "format-bluetooth": "bt: {volume}% {format_source}",
+        "format-bluetooth-muted": "btmuted: {format_source}",
+        "format-muted": "muted {format_source}",
+        "format-source": "mic: {volume}%",
+        "format-source-muted": "micmuted",
+        "max-volume": 150,
+        "on-click": "pavucontrol",
+    },
+    "custom/separator": {
+        "format": " / ",
+        "tooltip": false,
+    }
+  },
+]
