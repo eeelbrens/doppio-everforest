@@ -14,10 +14,10 @@ This is my third dotfiled rice so far. This time I focused on adding functionali
 > The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
 - main bottom bar: [`waybar`](https://github.com/Alexays/Waybar)
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
-- notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (not shown)
+- notification daemon: [`dunst`](https://github.com/dunst-project/dunst)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
 - shell: `bash` with [`ble.sh`](https://github.com/akinomyoga/ble.sh) with [`fish` like autocomplete](https://harduex.com/blog/fish-like-autosuggestions-in-bash-shell/)
-- logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout) (shown in video)
+- logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout) (not shown)
 
 ### extra dependencies required (check after your sway config copy)
 - sway: `brightnessctl` `playerctl` `pamixer` `wob` (audio/brightness keybindings and progress bar), `polkit`/`polkit-gnome-authentication` (user authentication for `nautilus`), `grimshot` (for screenshots), `wf-recorder` (for screen recordings, grapped from [ugursogukpinar's gist](https://gist.github.com/ugursogukpinar/f390d9f4c829fb1b05fc74a12dd482bb)), `swayidle` (for idle settings), `swaybg` (for backgrounds, issues with this dependency missing reported on Arch), `crontab` for scheduling low battery and charging dunst alerts [Eric Murphy's dotfiles' scripts](https://github.com/ericmurphyxyz/dotfiles/tree/master/.local/bin)
