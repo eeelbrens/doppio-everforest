@@ -2,8 +2,8 @@
 This is my third dotfiled rice so far. This time I focused on adding functionality to my already great setup while maintaining modularity. Direct successor to my [previous setup](https://github.com/eeelbrens/frieren-everforest).
 
 ## Previews
-![2024-07-07T23_10_17,631378726+03_00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/b794c0ae-f38c-4511-8ad8-853ccdd48b58)
 ![2024-07-07T23:08:11,427950162+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/0154b095-b555-41df-b8bc-74a49948daf3)
+![2024-07-07T23_10_17,631378726+03_00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/b794c0ae-f38c-4511-8ad8-853ccdd48b58)
 ![2024-07-07T23:11:49,856793414+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/9fe3e13d-8734-4374-a48a-3a0b264ff7b3)
 
 
