@@ -1,5 +1,5 @@
 # doppio-everforest (personal dotfiles with double bars based on everforest base16)
-This is my second dotfiled rice so far. This time I focused on adding functionality to my already great setup while maintaining modularity. Direct successor to my [previous setup](https://github.com/eeelbrens/frieren-everforest).
+This is my third dotfiled rice so far. This time I focused on adding functionality to my already great setup while maintaining modularity. Direct successor to my [previous setup](https://github.com/eeelbrens/frieren-everforest).
 
 ## Previews
 
