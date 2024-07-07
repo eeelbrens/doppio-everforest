@@ -2,11 +2,9 @@
 This is my third dotfiled rice so far. This time I focused on adding functionality to my already great setup while maintaining modularity. Direct successor to my [previous setup](https://github.com/eeelbrens/frieren-everforest).
 
 ## Previews
+![2024-07-07T23:08:11,427950162+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/0154b095-b555-41df-b8bc-74a49948daf3)
+![2024-07-07T23:11:49,856793414+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/9fe3e13d-8734-4374-a48a-3a0b264ff7b3)
 
-![2024-07-07T01:17:28,364556070+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/25725d5c-caee-41af-911a-73f03f0143a3)
-![2024-07-07T01:18:26,841652351+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/7b481456-14b6-4795-a261-2db87029b501)
-![2024-07-07T01:19:03,121435491+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/4e1a420c-6de1-452b-a708-9a487acfbad1)
-![2024-07-07T01:32:39,169010410+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/f5651f17-7f43-4561-80ca-5e90b8708f74)
 
 ## Packages/Dependencies Used
 ### swaywm and co. (major UI elements)
@@ -28,8 +26,6 @@ This is my third dotfiled rice so far. This time I focused on adding functionali
 - terminal: [`kitty`](https://github.com/kovidgoyal/kitty)
 - text editor: [`nvim`](https://github.com/neovim/neovim) with [LazyVim](https://github.com/LazyVim/LazyVim) (only config files for LazyVim are included)
 - fetch: [`fastfetch`](https://github.com/fastfetch-cli/fastfetch) (with custom colored logo options)
-- character animation: [`cmatrix`](https://github.com/abishekvashok/cmatrix)
-- terminal-based file manager: [`lf`](https://github.com/gokcehan/lf)
 
 ### theming stuff
 - theme: [tinted-theming's base16](https://github.com/tinted-theming/home) [everforest](https://tinted-theming.github.io/base16-gallery/) (background color standardized to `#2f383e`)... here's [more info on Sainnhe's original Everforest vim theme](https://github.com/sainnhe/everforest)... for GTK4.0 (`nautilus`' theme), check [Fausto-Korpsvart's repo](https://github.com/Fausto-Korpsvart/Everforest-GTK-Theme).
