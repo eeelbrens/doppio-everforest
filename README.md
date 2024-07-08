@@ -15,7 +15,7 @@ https://github.com/eeelbrens/doppio-everforest/assets/130598002/59a84a9f-3539-42
 > The config files for sway depend on GNOME's GTK4.0 theming for `libadwaita` apps (i'm a GNOME departee!), as well as for user authentication within `nautilus` (via `polkit`). You may want to remove/rewrite those portions accordingly).
 - main bottom bar: [`waybar`](https://github.com/Alexays/Waybar)
 - lockscreen: [`swaylock`](https://github.com/swaywm/swaylock) (not shown)
-- notification daemon: [`dunst`](https://github.com/dunst-project/dunst)
+- notification daemon: [`dunst`](https://github.com/dunst-project/dunst) (shown in sample video)
 - app launcher: [`wofi`](https://sr.ht/~scoopta/wofi/)
 - logout options: [`wlogout`](https://github.com/ArtsyMacaw/wlogout) (shown in sample video)
 
