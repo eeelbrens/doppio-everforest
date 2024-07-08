@@ -6,6 +6,7 @@ This is my third dotfiled rice so far. This time I focused on adding functionali
 ![2024-07-08T23:55:17,851142852+03:00](https://github.com/eeelbrens/doppio-everforest/assets/130598002/9a039eca-6e34-46e7-89a1-aabe813a11dc)
 
 **Demo Video:**
+
 https://github.com/eeelbrens/doppio-everforest/assets/130598002/59a84a9f-3539-42f5-be37-6646728a757f
 
 ## Packages/Dependencies Used
