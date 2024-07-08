@@ -30,7 +30,7 @@
         "rotate": 90
     },
     "sway/scratchpad": {
-        "format": "{count}h",
+        "format": "-{count}",
         "show-empty": true,
         "tooltip": true,
         "tooltip-format": "{app}: {title}"
@@ -101,7 +101,10 @@
         "battery",
     ],
     "modules-center": [
-        "mpris"
+        "mpris",
+    ],
+    "modules-left": [
+        "custom/fafo",
     ],
     "cpu": {
         "format": "cpu: {usage}%",
@@ -171,6 +174,10 @@
     },
     "custom/separator": {
         "format": " / ",
+        "tooltip": false,
+    },
+    "custom/fafo": {
+        "format": "fuck around, find out :)",
         "tooltip": false,
     }
   },

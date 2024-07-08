@@ -19,7 +19,7 @@ set $term kitty
 set $menu wofi --show drun 
 
 ### Output configuration
-output * bg ~/Downloads/frierenfafo.png fill
+output * bg #2f383e solid_color
 
 ### Idle configuration & power button link to wlogout. Heavily relying on systemd here (also added [Login]HandlePowerKey=ignore to /etc/systemd/logind.conf).
 exec swayidle -w \

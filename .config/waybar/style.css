@@ -85,7 +85,8 @@ button:hover {
 #scratchpad,
 #power-profiles-daemon,
 #mpris,
-#custom-yearprogress {
+#custom-yearprogress,
+#custom-fafo {
     color: @base05;
     background-color: transparent;
 }
